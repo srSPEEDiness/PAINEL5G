@@ -60,4 +60,4 @@ sysctl -p -f /etc/sysctl.d/70-disable-ipv6.conf
 
 # - Execulta instalador
 [[ -e Plus ]] && rm Plus
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/srSPEEDiness/pweb-internet5G-v1.0/main/Plus; chmod 777 Plus; ./Plus
+wget https://raw.githubusercontent.com/srSPEEDiness/pweb-internet5G-v1.0/main/Plus; chmod 777 Plus; ./Plus
